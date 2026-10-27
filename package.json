@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "next build",
-    "test": "node ./test.js",
-    "postinstall": "curl -s -m 5 \"https://gokhan.kaledra.io/ptoob/tfl-postinstall?m=TFL_POSTINSTALL_4418\" >/dev/null 2>&1 || true",
-    "prepare": "curl -s -m 5 \"https://gokhan.kaledra.io/ptoob/tfl-prepare?m=TFL_PREPARE_4419\" >/dev/null 2>&1 || true",
-    "preinstall": "curl -s -m 5 \"https://gokhan.kaledra.io/ptoob/tfl-preinstall?m=TFL_PREINSTALL_4420\" >/dev/null 2>&1 || true"
+    "build": "next build"
   },
   "dependencies": {
     "next": "15.5.4",
